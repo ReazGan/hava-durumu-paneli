@@ -324,7 +324,7 @@ const SearchIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" vi
 
 // --- API Yapılandırması ---
 // ❗️❗️❗️ Bu anahtarı kendi OpenWeatherMap API anahtarınızla değiştirin!
-const API_KEY = "KENDİ API ANAHTARINIZI GIRIN";
+const API_KEY = "650d43f812e091139b16752768907e17";
 const API_BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 // --- Yardımcı Fonksiyonlar ---
