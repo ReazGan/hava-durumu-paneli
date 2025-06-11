@@ -50,16 +50,18 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 #### 1. Adım: Projeyi Klonlayın
 
 Öncelikle projeyi bilgisayarınıza indirin.
-```bash
+
 git clone [https://github.com/ReazGan/hava-durumu-paneli.git](https://github.com/ReazGan/hava-durumu-paneli.git)
 
 
 2. Adım: Proje Dizinine Gidin
-
+```bash
 cd hava-durumu-paneli
-
+```
 3. Adım: Gerekli Paketleri Yükleyin
+```bash
 npm install
+```
 
 4. Adım: API Anahtarını Ayarlayın (🔑 En Önemli Adım!)
 Bu uygulamanın çalışabilmesi için bir API anahtarına ihtiyacı var.
@@ -69,13 +71,15 @@ OpenWeatherMap sitesine giderek ücretsiz bir hesap oluşturun ve API anahtarın
 Projenin ana dizininde .env adında yeni bir dosya oluşturun.
 
 Oluşturduğunuz bu dosyanın içine aşağıdaki satırı ekleyin ve ... kısmını kendi API anahtarınızla değiştirin:
-REACT_APP_OPENWEATHER_API_KEY=...SIZIN_API_ANAHTARINIZ...
-
+```bash
+REACT_APP_OPENWEATHER_API_KEY=...SIZIN_API_ANAHTARINIZ...```
+```
 5. Adım: Uygulamayı Başlatın
 Her şey hazır! Aşağıdaki komutla uygulamayı başlatın.
 
-npm start
-
+```bash
+npm start```
+```
 Uygulama, tarayıcınızda http://localhost:3000 adresinde otomatik olarak açılacaktır.
 
 ✍️ Yazar
