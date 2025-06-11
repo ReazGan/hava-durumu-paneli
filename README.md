@@ -82,8 +82,7 @@ npm start```
 ```
 Uygulama, tarayıcınızda http://localhost:3000 adresinde otomatik olarak açılacaktır.
 
-✍️ Yazar
-Baran Ayaztaş (ReazGan)
+✍️ Baran Ayaztaş (ReazGan)
 
 GitHub: @ReazGan
 Instagram: @baranayztas
