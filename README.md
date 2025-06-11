@@ -10,7 +10,7 @@ Bu proje, React kullanılarak geliştirilmiş, kullanıcılara anlık hava durum
 
 <div align="center">
 
-![Uygulama Önizlemesi](https://i.imgur.com/y9uypo3.png)
+![Uygulama Önizlemesi]([https://i.imgur.com/y9uypo3.png](https://placehold.co/800x450/1f2937/d1d5db?text=Uygulama+Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC))
 
 
 </div>
