@@ -10,7 +10,7 @@ Bu proje, React kullanılarak geliştirilmiş, kullanıcılara anlık hava durum
 
 <div align="center">
 
-![Uygulama Ekran Görüntüsü]([https://imgur.com/a/aAwSQTy](https://i.imgur.com/y9uypoJ.png))
+![Uygulama Ekran Görüntüsü]([https://imgur.com/a/aAwSQTy](https://i.imgur.com/y9uypoJ.png)
 
 
 </div>
