@@ -12,9 +12,6 @@ import {
   Filler,
 } from 'chart.js';
 
-// --- STİL BİLEŞENİ (CSS Dosyası Yerine) ---
-// CSS stillerini doğrudan JavaScript içinde yönetmek için bir bileşen oluşturuyoruz.
-// Bu, harici bir CSS dosyası ihtiyacını ortadan kaldırır.
 const StyleInjector = () => {
   useEffect(() => {
     const css = `
@@ -280,7 +277,6 @@ const StyleInjector = () => {
 };
 
 
-// Chart.js bileşenlerini kaydet
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -292,7 +288,6 @@ ChartJS.register(
   Filler
 );
 
-// --- İKON BİLEŞENLERİ (SVG) ---
 const WeatherIcon = ({ code, className }) => {
     const Icon = {
         '01d': <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>,
@@ -322,18 +317,14 @@ const WindIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" view
 const DropletIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>;
 const SearchIcon = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>;
 
-// --- API Yapılandırması ---
-// ❗️❗️❗️ Bu anahtarı kendi OpenWeatherMap API anahtarınızla değiştirin!
 const API_KEY = "650d43f812e091139b16752768907e17";
 const API_BASE_URL = "https://api.openweathermap.org/data/2.5";
 
-// --- Yardımcı Fonksiyonlar ---
 const capitalizeFirstLetter = (string) => {
     if (!string) return '';
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
-// --- ALT BİLEŞENLER ---
 const SearchBar = ({ onSearch }) => {
     const [city, setCity] = useState('');
 
@@ -455,7 +446,6 @@ const Forecast = ({ data }) => {
 };
 
 
-// --- ANA UYGULAMA BİLEŞENİ ---
 export default function App() {
     const [city, setCity] = useState('Istanbul');
     const [currentWeather, setCurrentWeather] = useState(null);
@@ -537,3 +527,4 @@ export default function App() {
         </div>
     );
 }
+
